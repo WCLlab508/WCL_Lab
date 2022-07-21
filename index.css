@@ -54,21 +54,21 @@ img {
 
 .top_btn {
   position: fixed;
-  right: 200px;
-  bottom: 50px;
+  right: 3%;
+  bottom: 20px;
 }
 .top_btn img {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
 }
 .top_btn:hover img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 .wrap {
   margin: 0 auto;
-  max-width: 980px;
+  max-width: 850px;
 }
 
 .d-flex {
@@ -117,6 +117,10 @@ img {
   display: block;
 }
 
+.font-f {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .font-s20 {
   font-size: 20px;
 }
@@ -129,8 +133,12 @@ img {
   font-size: 48px;
 }
 
-.line-h64 {
-  line-height: 64px;
+.font-w-b {
+  font-weight: bolder;
+}
+
+.line-h48 {
+  line-height: 48px;
 }
 
 .bg-color-green {
