@@ -121,6 +121,200 @@ img {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: block;
+}
+
+.top_btn {
+  position: fixed;
+  right: 3%;
+  bottom: 20px;
+}
+.top_btn img {
+  width: 80px;
+  height: 80px;
+}
+.top_btn:hover img {
+  width: 100px;
+  height: 100px;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 850px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jcsb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jcc {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tac {
+  text-align: center;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.pr-100 {
+  padding-right: 100px;
+}
+
+.pl-100 {
+  padding-left: 100px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.d-block {
+  display: block;
+}
+
+.font-f {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-s16 {
+  font-size: 16px;
+}
+
+.font-s20 {
+  font-size: 20px;
+}
+
+.font-s32 {
+  font-size: 32px;
+}
+
+.font-s48 {
+  font-size: 48px;
+}
+
+.font-w-b {
+  font-weight: bolder;
+}
+
+.font-w-bold {
+  font-weight: bold;
+}
+
+.line-h48 {
+  line-height: 48px;
+}
+
+.bg-color-green {
+  background-color: #9abdb7;
+}
+.bg-color-green a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  line-height: 60px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.bg-color-green a:hover {
+  display: block;
+  color: white;
+  background-color: #709eb1;
+}
+
+.bg-color-push {
+  background-color: #709eb1;
+}
+
+.footer {
+  background-color: #9abdb7;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.text-d-none a {
+  text-decoration: none;
+}
+.text-d-none a:hover {
+  color: red;
+}
+
 .font-s20 {
   font-size: 20px;
 }

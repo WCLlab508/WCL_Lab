@@ -113,12 +113,24 @@ img {
   padding-left: 100px;
 }
 
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .d-block {
   display: block;
 }
 
 .font-f {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-s16 {
+  font-size: 16px;
 }
 
 .font-s20 {
@@ -135,6 +147,10 @@ img {
 
 .font-w-b {
   font-weight: bolder;
+}
+
+.font-w-bold {
+  font-weight: bold;
 }
 
 .line-h48 {
@@ -161,4 +177,17 @@ img {
 
 .bg-color-push {
   background-color: #709eb1;
+}
+
+.footer {
+  background-color: #9abdb7;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.text-d-none a {
+  text-decoration: none;
+}
+.text-d-none a:hover {
+  color: red;
 }
