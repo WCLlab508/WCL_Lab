@@ -239,7 +239,12 @@ img {
 
 .text-d-none a {
   text-decoration: none;
+  color: #000;
 }
 .text-d-none a:hover {
-  color: red;
+  opacity: 0.5;
+}
+
+.hover-img a:hover {
+  opacity: 0.6;
 }

@@ -93,6 +93,10 @@ img {
   text-align: center;
 }
 
+.taj {
+  text-align: justify;
+}
+
 .pl-5 {
   padding-left: 5px;
 }
@@ -105,6 +109,10 @@ img {
   padding: 20px;
 }
 
+.p-30 {
+  padding: 30px;
+}
+
 .pr-100 {
   padding-right: 100px;
 }
@@ -113,12 +121,24 @@ img {
   padding-left: 100px;
 }
 
+.mr-20 {
+  margin-right: 20px;
+}
+
 .mb-12 {
   margin-bottom: 12px;
 }
 
 .mb-20 {
   margin-bottom: 20px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.mb-120 {
+  margin-bottom: 120px;
 }
 
 .d-block {
@@ -137,6 +157,10 @@ img {
   font-size: 20px;
 }
 
+.font-s24 {
+  font-size: 24px;
+}
+
 .font-s32 {
   font-size: 32px;
 }
@@ -151,6 +175,14 @@ img {
 
 .font-w-bold {
   font-weight: bold;
+}
+
+.line-h24 {
+  line-height: 24px;
+}
+
+.line-h28 {
+  line-height: 28px;
 }
 
 .line-h48 {
@@ -187,7 +219,29 @@ img {
 
 .text-d-none a {
   text-decoration: none;
+  color: #000;
 }
 .text-d-none a:hover {
-  color: red;
+  opacity: 0.5;
+}
+
+.bgc-yellow {
+  background-color: #fcf9ec;
+}
+
+.bgc-green {
+  background-color: #eaf0ea;
+}
+
+.bgc-orange {
+  background-color: #fce7da;
+}
+
+.Nucleoapzymes-img {
+  width: 30%;
+  height: 30%;
+}
+
+.border-r {
+  border-radius: 8%;
 }
