@@ -112,6 +112,14 @@ padding-right: 100px;
     margin-bottom: 20px;
 }
 
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.mb-80{
+    margin-bottom: 80px;
+}
+
 .d-block{
     display: block;
 }
@@ -144,6 +152,10 @@ padding-right: 100px;
     font-weight: bold;
 }
 
+
+.line-h24{
+    line-height: 24px;
+}
 .line-h48{
     line-height: 48px;
 }
@@ -187,4 +199,37 @@ padding-right: 100px;
     }
 }
 
+}
+
+.contact{
+    iframe{
+        width: 100%;
+    }
+    
+}
+
+.phone{
+    a{
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        line-height: 30px;
+
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+}
+
+.mail{
+    a{
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        line-height: 30px;
+
+        &:hover{
+            opacity: 0.7;
+        }
+    }
 }
